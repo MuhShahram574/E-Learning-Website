@@ -8,6 +8,7 @@ module.exports = {
         customWhite: "#F1F1F3",
         CustomOrange: "#FF9500",
         CustomOrangesecondary: "#ffa01a",
+        lightCustomOrange: "#FFF4E5",
       },
       colors: {
         customWhite: "#F1F1F3",

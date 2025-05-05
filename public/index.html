@@ -14,12 +14,15 @@
   </head>
   <body class="bg-mainbgColor font-Be-Vietnam-Pro">
     <div class="px-2 py-6 md:py-4 md:px-4 3xl:max-w-screen-3xl mx-auto">
-      <header class="flex flex-col gap-3">
+      <header class="flex flex-col gap-6">
         <div
-          class="bg-CustomOrange flex items-center justify-between sm:justify-center text-white py-3 md:py-4 px-2 text-xs 3xl:text-xl sm:gap-6 rounded-md"
+          class="bg-CustomOrange flex justify-center py-3 md:py-4 px-2 rounded-md"
         >
-          <p>Free Courses 🌟 Sale Ends Soon, Get It Now</p>
-          <div class="text-xs">
+          <a
+            href="#"
+            class="flex items-center justify-between text-xs 3xl:text-xl w-full text-white sm:w-fit sm:gap-6"
+            >Free Courses 🌟 Sale Ends Soon, Get It Now
+
             <svg
               width="21"
               height="21"
@@ -33,7 +36,7 @@
                 fill="#fff"
               />
             </svg>
-          </div>
+          </a>
         </div>
         <nav class="flex justify-between items-center lg:px-12">
           <!-- Navbar Logo & links  -->
@@ -92,7 +95,7 @@
           </div>
           <div class="flex items-center gap-3 sm:gap-6">
             <!-- login Btn -->
-            <div>
+            <div class="flex sm:gap-4">
               <a
                 href="#"
                 class="px-5 py-3 hover:bg-CustomOrange rounded-lg hover:text-white text-sm md:text-base 2xl:text-lg transition-all duration-200"
@@ -123,6 +126,79 @@
           </div>
         </nav>
       </header>
+
+      <main class="lg:px-12">
+        <section>
+          <div class="grid grid-cols-6 min-h-96">
+            <div
+              class="md:col-start-2 md:col-end-6 col-span-6 flex flex-col gap-12 items-center justify-center"
+            >
+              <!-- upper div -->
+              <div class="flex flex-col text-center justify-center gap-5">
+                <div
+                  class="relative bg-white flex gap-2 md:gap-5 items-center mx-auto w-fit p-3 rounded-lg"
+                >
+                  <div class="absolute -top-6 -left-5">
+                    <svg
+                      width="39"
+                      height="43"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.049 40.127c-3.724-1.051-7.623-1.582-11.405-2.068-.815-.102-1.571.467-1.63 1.268a1.454 1.454 0 001.223 1.637c3.666.467 7.448.968 10.997 1.98.756.22 1.571-.232 1.804-1.01a1.46 1.46 0 00-.99-1.807zM24.337 25.217C18.343 19.062 11.594 13.7 5.716 7.38c-.524-.59-1.455-.622-2.037-.071-.582.551-.64 1.479-.058 2.07 5.877 6.337 12.627 11.718 18.62 17.89a1.494 1.494 0 002.095.018c.523-.566.581-1.494 0-2.07zM35.567 1.543l.523 10.57c0 .806.7 1.43 1.514 1.39.814-.04 1.396-.727 1.396-1.534l-.523-10.585A1.495 1.495 0 0036.904.002c-.756.044-1.396.735-1.338 1.541z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </div>
+                  <div class="p-3 bg-lightCustomOrange">
+                    <svg
+                      width="24"
+                      height="24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h1 class="text-base md:text-2xl xl:text-4xl font-semibold">
+                      <span class="text-CustomOrange">Unlock</span> Your
+                      Creative Potential
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <p class="text-2xl font-medium">
+                    with Online Design and Development Courses.
+                  </p>
+                  <p>Learn from Industry Experts and Enhance Your Skills.</p>
+                </div>
+              </div>
+              <!-- lower div -->
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="p-3 md:px-5 md:py-4 rounded-lg bg-CustomOrange hover:bg-CustomOrangesecondary transition-all duration-200 text-white"
+                  >Explore Courses</a
+                >
+                <a
+                  href="#"
+                  class="p-3 md:px-5 md:py-4 rounded-lg bg-white hover:bg-CustomOrange transition-all duration-200 hover:text-white"
+                  >View Pricing</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>
