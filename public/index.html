@@ -12,11 +12,11 @@
     />
     <title>E-learning</title>
   </head>
-  <body class="bg-customWhite font-Be-Vietnam-Pro">
-    <div class="px-2 py-6 md:py-4 md:px-4">
+  <body class="bg-mainbgColor font-Be-Vietnam-Pro">
+    <div class="px-2 py-6 md:py-4 md:px-4 3xl:max-w-screen-3xl mx-auto">
       <header class="flex flex-col gap-3">
         <div
-          class="bg-darkCustomOrange flex items-center justify-between sm:justify-center text-white py-3 md:py-4 px-2 text-xs sm:gap-6 rounded-md"
+          class="bg-darkCustomOrange flex items-center justify-between sm:justify-center text-white py-3 md:py-4 px-2 text-xs 3xl:text-xl sm:gap-6 rounded-md"
         >
           <p>Free Courses 🌟 Sale Ends Soon, Get It Now</p>
           <div class="text-xs">
@@ -35,37 +35,77 @@
             </svg>
           </div>
         </div>
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-between items-center lg:px-12">
           <!-- Navbar Logo & links  -->
-          <div>
-            <svg
-              width="40"
-              height="41"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect y=".5" width="40" height="40" rx="6" fill="#FF9500" />
-              <path
-                d="M8.272 32.846l8.025-8.025h8.025v-8.025l8.024 8.025-8.024 8.025H8.272zM8.272 16.796l8.025 8.025v-8.025h8.025l8.024-8.024H16.297l-8.025 8.024z"
-                fill="#fff"
-              />
-            </svg>
+          <div class="flex items-center text-sm 3xl:text-lg gap-8">
+            <div>
+              <svg
+                width="40"
+                height="41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y=".5" width="40" height="40" rx="6" fill="#FF9500" />
+                <path
+                  d="M8.272 32.846l8.025-8.025h8.025v-8.025l8.024 8.025-8.024 8.025H8.272zM8.272 16.796l8.025 8.025v-8.025h8.025l8.024-8.024H16.297l-8.025 8.024z"
+                  fill="#fff"
+                />
+              </svg>
+            </div>
+            <ul class="lg:flex hidden gap-2 md:gap-6">
+              <li>
+                <a
+                  href="#"
+                  class="px-5 py-3 text-base 3xl:text-lg bg-customWhite hover:bg-gray-200 transition-all duration-300 rounded-lg inline-block"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="px-5 py-3 text-base 3xl:text-lg bg-customWhite hover:bg-gray-200 transition-all duration-300 rounded-lg inline-block"
+                  >Courses</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="px-5 py-3 text-base 3xl:text-lg bg-customWhite hover:bg-gray-200 transition-all duration-300 rounded-lg inline-block"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="px-5 py-3 text-base 3xl:text-lg bg-customWhite hover:bg-gray-200 transition-all duration-300 rounded-lg inline-block"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="px-5 py-3 text-base 3xl:text-lg bg-customWhite hover:bg-gray-200 transition-all duration-300 rounded-lg inline-block"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
-          <!-- login Btn -->
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-3 sm:gap-6">
+            <!-- login Btn -->
             <div>
               <a
                 href="#"
-                class="px-5 py-3 hover:bg-darkCustomOrange rounded-lg hover:text-white text-sm md:text-base transition-all duration-200"
+                class="px-5 py-3 hover:bg-darkCustomOrange rounded-lg hover:text-white text-sm md:text-base 2xl:text-lg transition-all duration-200"
                 >Sign Up</a
               >
               <a
                 href="#"
-                class="px-5 py-3 bg-darkCustomOrange rounded-lg text-white text-sm md:text-base transition-all duration-200"
+                class="px-5 py-3 bg-darkCustomOrange rounded-lg text-white text-sm md:text-base 2xl:text-lg transition-all duration-200"
                 >Login</a
               >
             </div>
-            <div>
+            <!-- Hambuger Btn -->
+            <div class="block lg:hidden">
               <svg
                 width="34"
                 height="35"
