@@ -6,7 +6,8 @@ module.exports = {
       backgroundColor: {
         mainbgColor: "#F7F7F8",
         customWhite: "#F1F1F3",
-        darkCustomOrange: "#FF9500",
+        CustomOrange: "#FF9500",
+        CustomOrangesecondary: "#ffa01a",
       },
       colors: {
         customWhite: "#F1F1F3",
@@ -14,7 +15,7 @@ module.exports = {
         mediumCustomGrey: "#333",
         lightCustomGrey: "#4C4C4D",
         lightCustomOrange: "#FFF4E5",
-        darkCustomOrange: "#FF9500",
+        CustomOrange: "#FF9500",
       },
       fontFamily: {
         "Be-Vietnam-Pro": "Be Vietnam Pro",
