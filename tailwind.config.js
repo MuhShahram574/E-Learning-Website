@@ -7,7 +7,7 @@ module.exports = {
         mainbgColor: "#F7F7F8",
         customWhite: "#F1F1F3",
         CustomOrange: "#FF9500",
-        CustomOrangesecondary: "#ffa01a",
+        CustomOrangesecondary: "#eb9233",
         lightCustomOrange: "#FFF4E5",
       },
       colors: {
@@ -17,6 +17,9 @@ module.exports = {
         lightCustomGrey: "#4C4C4D",
         lightCustomOrange: "#FFF4E5",
         CustomOrange: "#FF9500",
+      },
+      boxShadow: {
+        "custom-btn": "0 4px 10px -2px #ff9500",
       },
       fontFamily: {
         "Be-Vietnam-Pro": "Be Vietnam Pro",
