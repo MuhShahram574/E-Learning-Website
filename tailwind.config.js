@@ -2,6 +2,20 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
+    keyframes: {
+      "slide-left": {
+        "0%": { transform: "translateX(-100%)", opacity: "0" },
+        "100%": { transform: "translateX(0)", opacity: "1" },
+      },
+      "slide-right": {
+        "0%": { transform: "translateX(100%)", opacity: "0" },
+        "100%": { transform: "translateX(0)", opacity: "1" },
+      },
+    },
+    animation: {
+      "slide-left": "slide-left 2s forwards", // Adjust duration as needed
+      "slide-right": "slide-right 10s forwards", // Adjust duration as needed
+    },
     extend: {
       backgroundColor: {
         mainbgColor: "#F7F7F8",
@@ -29,5 +43,17 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".scroll-animate": {
+          animationTimeline: "view()",
+          animationRange: "entry 0% cover 40%",
+        },
+      };
+
+      // Add utilities with responsive and hover variants
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };
