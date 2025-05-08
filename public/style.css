@@ -595,8 +595,28 @@ video {
   margin-right: auto;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .block {
@@ -625,6 +645,10 @@ video {
 
 .min-h-96 {
   min-height: 24rem;
+}
+
+.min-h-80 {
+  min-height: 20rem;
 }
 
 .w-fit {
@@ -724,8 +748,8 @@ video {
   gap: 5rem;
 }
 
-.gap-28 {
-  gap: 7rem;
+.gap-24 {
+  gap: 6rem;
 }
 
 .gap-3 {
@@ -801,6 +825,10 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-b {
@@ -980,11 +1008,6 @@ video {
   line-height: 1rem;
 }
 
-.\!text-sm {
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1051,6 +1074,10 @@ video {
   background-color: rgb(255 149 0 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-CustomOrange\/30:hover {
+  background-color: rgb(255 149 0 / 0.3);
+}
+
 .hover\:bg-customWhite:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 243 / var(--tw-bg-opacity, 1));
@@ -1061,37 +1088,12 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-lightCustomGrey\/25:hover {
-  background-color: rgb(76 76 77 / 0.25);
-}
-
-.hover\:bg-lightCustomOrange\/90:hover {
-  background-color: rgb(255 244 229 / 0.9);
-}
-
-.hover\:bg-CustomOrange\/30:hover {
-  background-color: rgb(255 149 0 / 0.3);
-}
-
-.hover\:bg-customWhite\/30:hover {
-  background-color: rgb(241 241 243 / 0.3);
-}
-
-.hover\:bg-customWhite\/50:hover {
-  background-color: rgb(241 241 243 / 0.5);
-}
-
-.hover\:bg-lightCustomGrey:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 76 77 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-lightCustomGrey\/30:hover {
-  background-color: rgb(76 76 77 / 0.3);
-}
-
 .hover\:bg-lightCustomGrey\/20:hover {
   background-color: rgb(76 76 77 / 0.2);
+}
+
+.hover\:bg-lightCustomGrey\/25:hover {
+  background-color: rgb(76 76 77 / 0.25);
 }
 
 .hover\:text-white:hover {
@@ -1267,6 +1269,11 @@ video {
     line-height: 1.5rem;
   }
 
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1274,11 +1281,6 @@ video {
 
   .md\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
@@ -1313,6 +1315,14 @@ video {
 @media (min-width: 1280px) {
   .xl\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .xl\:gap-12 {
+    gap: 3rem;
+  }
+
+  .xl\:gap-3 {
+    gap: 0.75rem;
   }
 
   .xl\:p-20 {
