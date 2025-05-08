@@ -32,9 +32,7 @@ module.exports = {
         lightCustomOrange: "#FFF4E5",
         CustomOrange: "#FF9500",
       },
-      boxShadow: {
-        "custom-btn": "0 4px 10px -2px #ff9500",
-      },
+
       fontFamily: {
         "Be-Vietnam-Pro": "Be Vietnam Pro",
       },
