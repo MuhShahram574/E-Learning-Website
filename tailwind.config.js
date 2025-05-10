@@ -39,6 +39,9 @@ module.exports = {
       screens: {
         "3xl": "1920px",
       },
+      grid: {
+        "custom-col-3": "repeat(3,1fr)",
+      },
     },
   },
   plugins: [
