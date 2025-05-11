@@ -33,6 +33,9 @@ module.exports = {
         CustomOrange: "#FF9500",
       },
 
+      fontSize: {
+        "custom-28": "28px",
+      },
       fontFamily: {
         "Be-Vietnam-Pro": "Be Vietnam Pro",
       },
