@@ -656,6 +656,10 @@ video {
   width: 100%;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .translate-x-1\/2 {
   --tw-translate-x: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -734,6 +738,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-1 {
@@ -863,6 +871,10 @@ video {
   border-top-width: 1px;
 }
 
+.border-l-2 {
+  border-left-width: 2px;
+}
+
 .bg-CustomOrange {
   --tw-bg-opacity: 1;
   background-color: rgb(255 149 0 / var(--tw-bg-opacity, 1));
@@ -918,6 +930,19 @@ video {
   background-color: rgb(241 241 243 / 0.2);
 }
 
+.bg-customWhite\/30 {
+  background-color: rgb(241 241 243 / 0.3);
+}
+
+.bg-customWhite\/40 {
+  background-color: rgb(241 241 243 / 0.4);
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -948,6 +973,14 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-1 {
@@ -1400,6 +1433,10 @@ video {
     gap: 1.5rem;
   }
 
+  .sm\:p-3 {
+    padding: 0.75rem;
+  }
+
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1424,6 +1461,10 @@ video {
 @media (min-width: 768px) {
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
+  }
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .md\:col-start-2 {
@@ -1486,6 +1527,10 @@ video {
     padding: 1.25rem;
   }
 
+  .md\:p-16 {
+    padding: 4rem;
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1499,6 +1544,16 @@ video {
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:text-2xl {
@@ -1538,6 +1593,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1566,6 +1625,10 @@ video {
     gap: 1.25rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1591,6 +1654,10 @@ video {
 
   .xl\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:gap-12 {
@@ -1659,6 +1726,10 @@ video {
 
   .\32xl\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .\32xl\:gap-5 {
+    gap: 1.25rem;
   }
 
   .\32xl\:p-6 {
