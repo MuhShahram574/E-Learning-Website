@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhShahram574/E-Learning-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuhShahram574/E-Learning-Website/issues"
+  },
+  "homepage": "https://github.com/MuhShahram574/E-Learning-Website#readme",
+  "description": ""
 }
