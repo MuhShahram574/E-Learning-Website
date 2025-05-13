@@ -207,11 +207,12 @@
                     >Phone
                   </label>
                   <input
-                    type="number"
-                    name="Number"
+                    type="tel"
                     id="Number"
                     class="bg-customWhite/20 p-5 rounded-md border outline-none text-gray-600 placeholder:text-gray-700/80"
-                    placeholder="Enter your Number"
+                    name="phone"
+                    placeholder="03xx-xxxxxxx"
+                    pattern="[0-9]{4}-[0-9]{7}"
                   />
                 </div>
                 <div class="flex flex-col gap-3 md:col-span-2">
