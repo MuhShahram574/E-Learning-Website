@@ -39,6 +39,7 @@ module.exports = {
 
       fontSize: {
         "custom-28": "28px",
+        "custon-40": "40px",
       },
       fontFamily: {
         "Be-Vietnam-Pro": "Be Vietnam Pro",
