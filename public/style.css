@@ -578,26 +578,6 @@ video {
   right: 50%;
 }
 
-.right-7 {
-  right: 1.75rem;
-}
-
-.right-16 {
-  right: 4rem;
-}
-
-.right-24 {
-  right: 6rem;
-}
-
-.right-28 {
-  right: 7rem;
-}
-
-.right-32 {
-  right: 8rem;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -606,32 +586,60 @@ video {
   bottom: 0px;
 }
 
-.right-40 {
-  right: 10rem;
+.right-0 {
+  right: 0px;
 }
 
-.right-48 {
-  right: 12rem;
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-24 {
+  right: 6rem;
 }
 
 .right-56 {
   right: 14rem;
 }
 
-.z-0 {
-  z-index: 0;
+.right-52 {
+  right: 13rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.right-44 {
+  right: 11rem;
+}
+
+.left-56 {
+  left: 14rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.left-3\/4 {
+  left: 75%;
+}
+
+.left-2\/3 {
+  left: 66.666667%;
+}
+
+.left-2\/4 {
+  left: 50%;
 }
 
 .-z-10 {
   z-index: -10;
 }
 
-.-z-20 {
-  z-index: -20;
-}
-
-.z-10 {
-  z-index: 10;
+.z-0 {
+  z-index: 0;
 }
 
 .col-span-1 {
@@ -656,10 +664,6 @@ video {
 
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-
-.col-start-6 {
-  grid-column-start: 6;
 }
 
 .row-start-1 {
@@ -901,12 +905,12 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-medium {
   border-radius: 10px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-b-lg {
@@ -984,6 +988,58 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-Z-image {
+  background-image: url('../public/asset/about-page-images/Z-image.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
+}
+
+.bg-\[length\:100\%\] {
+  background-size: 100%;
+}
+
+.bg-\[length\:0_100\%\] {
+  background-size: 0 100%;
+}
+
+.bg-\[length\:0\%_100\%\] {
+  background-size: 0% 100%;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-\[position\:60\%_center\] {
+  background-position: 60% center;
+}
+
+.bg-\[position\:80\%_center\] {
+  background-position: 80% center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1006,10 +1062,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-16 {
-  padding: 4rem;
 }
 
 .px-1 {
@@ -1222,6 +1274,12 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.ring-0 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 .transition-all {
@@ -1446,6 +1504,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1470,6 +1532,10 @@ video {
     display: flex;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1478,16 +1544,20 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-7 {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:gap-0 {
@@ -1602,6 +1672,10 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1622,12 +1696,24 @@ video {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
   .lg\:gap-0 {
     gap: 0px;
   }
 
   .lg\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
   }
 
   .lg\:px-12 {

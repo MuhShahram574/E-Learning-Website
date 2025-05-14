@@ -33,6 +33,10 @@ module.exports = {
         CustomOrange: "#FF9500",
       },
 
+      backgroundImage: {
+        "Z-image": "url('../public/asset/about-page-images/Z-image.png')",
+      },
+
       fontSize: {
         "custom-28": "28px",
       },
