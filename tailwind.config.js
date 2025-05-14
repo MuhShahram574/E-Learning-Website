@@ -33,6 +33,10 @@ module.exports = {
         CustomOrange: "#FF9500",
       },
 
+      backgroundImage: {
+        "Z-image": "url('../public/asset/about-page-images/Z-image.png')",
+      },
+
       fontSize: {
         "custom-28": "28px",
       },
@@ -42,8 +46,8 @@ module.exports = {
       screens: {
         "3xl": "1920px",
       },
-      grid: {
-        "custom-col-3": "repeat(3,1fr)",
+      borderRadius: {
+        medium: "10px",
       },
     },
   },
